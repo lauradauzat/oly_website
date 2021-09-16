@@ -1,0 +1,150 @@
+
+
+body {
+    font-family: 'Futura-Light', 'Futura', sans-serif;
+    margin: 0em;
+    padding: 0;
+}
+
+
+h1 { 
+    font-style: normal;
+    font-size: 3em;  
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+button {
+    border: 2px solid black;
+    background: transparent;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+button:hover { 
+    color: rgb(51, 126, 113);
+    border: 2px solid grey;
+
+}
+#musique {
+    background-color: rgb(132, 218, 192);
+}
+
+#music-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#music-container a {
+    padding: 1.5em;
+}
+
+
+#contact { 
+    background-color:lightgray;
+}
+
+#music-container {
+    background-color:  rgba(255, 255, 255, 0.5);
+    padding: 4em;
+}
+
+
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#carroussel { 
+    background-image: url(Images/parallaxFantasy.png);
+    height : 400px;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(132, 218, 192);
+
+
+}
+
+#menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;overflow: hidden;
+
+  
+}
+
+
+ 
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+#menu li a:hover:not(.active) {
+    background-color: white;
+} 
+
+/* menu .active ne marche pas, probablement parce que il ne capte pas que les liens sont actifs vu que c'est juste des ancres de  la même page */ 
+
+#menu .active {
+    background-color: black;
+    color : white; 
+}
+
+
+.chapter { 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+
+
+#cover { 
+    width: 100%;
+}
+
+
+
+li { 
+    display: table-cell; 
+    padding-right: 4em; 
+}
+
+#video {
+    padding-top : 2em; 
+    padding-bottom : 2em; 
+}
+
+.pdf {
+    width: 3em;
+}
+
+
+#contact { 
+    text-align: center;
+    padding-bottom: 4em; ;
+    
+}
