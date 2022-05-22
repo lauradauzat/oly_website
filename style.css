@@ -67,7 +67,7 @@ button:hover {
 }
 
 #carroussel { 
-    background-image: url(Images/parallaxFantasy.png);
+    background-image: url(Images/parallax2022.jpg);
     height : 400px;  
     background-attachment: fixed;
     background-position: center;
@@ -85,7 +85,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     background-color: rgb(132, 218, 192);
-
+    z-index: 1;
 
 }
 
@@ -183,4 +183,16 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+/*page gigs*/
+
+.ul-gigs {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-gigs li {
+    padding: 10px 0;
 }
