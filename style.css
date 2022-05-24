@@ -196,3 +196,32 @@ li {
 .ul-gigs li {
     padding: 10px 0;
 }
+
+
+@media (max-width: 960px) {
+    #epTimeToGo .row {
+        flex-direction: column;
+    }
+
+
+    .flickity-viewport {
+        height: 770px  !important;
+    }
+    .carousel-cell {
+        flex-direction: column;
+        height: auto !important;
+    }
+
+    .carousel-cell img {
+        max-height: 400px !important;
+    }
+
+        
+}
+
+@media (max-width: 822px) {
+    #menu {
+        display: none;
+    }
+    
+}
